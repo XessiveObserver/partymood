@@ -4,4 +4,6 @@ Partymood is a party inventation app, that you can use to track party attendees 
 
 ### Run app using
 
-> go run main.go
+```
+go run main.go
+```
