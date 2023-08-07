@@ -1,8 +1,6 @@
-## Web app with temporary data base using
+## Web app in Go temporary data base
 
-```Partymood is a party inventation app
-    That you can use to track party attendees and absentees.
-```
+Partymood is a party inventation app, that you can use to track party attendees and absentees.
 
 ### Run app using
 
