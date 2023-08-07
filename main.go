@@ -79,7 +79,6 @@ func formHandler(writer http.ResponseWriter, request *http.Request) {
 		} else {
 
 			responses = append(responses, &responseData)
-
 			if responseData.WillAttend {
 				templates["thanks"].Execute(writer, responseData.Name)
 			} else {

@@ -4,11 +4,11 @@
 </div>
 
 {{ if gt (len .Errors) 0}}
-<ul class="text-danger mt-3">
-    {{ range .Errors}}
-    <li>{{ . }}</li>
-    {{ end}}
-</ul>
+    <ul class="text-danger mt-3">
+        {{ range .Errors}}
+            <li>{{ . }}</li>
+        {{ end}}
+    </ul>
 {{ end}}
 
 <form method="POST" class="m-2">
